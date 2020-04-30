@@ -10,7 +10,7 @@ sourceCompatibility = '1.8'
 
 jar {
     manifest {
-        attributes('Main-Class': mainClassName)
+        attributes('Main-Class': "com.example.demo.DemoApplication")
     }
     enabled = true
 }
